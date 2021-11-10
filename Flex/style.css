@@ -1,0 +1,115 @@
+* {
+    import url: ('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.flex1 {
+    height: 130px;
+    width: 100%;
+    background-color: gray;
+    justify-content: flex-start;
+    display: flex;
+    border: solid black;
+    border-radius: 15px;
+}
+
+.flex2 {
+    height: 130px;
+    width: 100%;
+    background-color: gray;
+    margin-top: 25px;
+    justify-content: flex-end;
+    display: flex;
+    border: solid black;
+    border-radius: 15px;
+}
+
+.flex3 {
+    height: 130px;
+    width: 100%;
+    background-color: gray;
+    margin-top: 25px;
+    justify-content: center;
+    display: flex;
+    border: solid black;
+    border-radius: 15px;
+}
+
+.flex4 {
+    height: 130px;
+    width: 100%;
+    background-color: gray;
+    margin-top: 25px;
+    justify-content: space-around;
+    display: flex;
+    border: solid black;
+    border-radius: 15px;
+}
+
+.flex5 {
+    height: 130px;
+    width: 100%;
+    background-color: gray;
+    margin-top: 25px;
+    justify-content: space-between;
+    display: flex;
+    border: solid black;
+    border-radius: 15px;
+}
+
+.flex6 {
+    height: 130px;
+    width: 100%;
+    background-color: gray;
+    margin-top: 25px;
+    justify-content: space-evenly;
+    display: flex;
+    border: solid black;
+    border-radius: 15px;
+}
+
+.box1 {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    margin: 15px;
+}
+
+.box2 {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    margin: 15px;
+}
+
+.box3 {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    margin: 15px;
+}
+
+.box4 {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    margin: 15px;
+}
+
+.box5{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    margin: 15px;
+}
+
+.box6 {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    margin: 15px;
+}
+
+.h1 {
+    align-content: center;
+}
