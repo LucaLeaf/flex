@@ -1,10 +1,20 @@
 * {
-    import url: ('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
-    font-family: 'Josefin Sans', sans-serif;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #4a4a4a;
+}
+
+.background {
+    margin: 10px;
 }
 
 .flex1 {
-    height: 130px;
+    height: 90px;
     width: 100%;
     background-color: gray;
     justify-content: flex-start;
@@ -14,7 +24,7 @@
 }
 
 .flex2 {
-    height: 130px;
+    height: 90px;
     width: 100%;
     background-color: gray;
     margin-top: 25px;
@@ -25,7 +35,7 @@
 }
 
 .flex3 {
-    height: 130px;
+    height: 90px;
     width: 100%;
     background-color: gray;
     margin-top: 25px;
@@ -36,7 +46,7 @@
 }
 
 .flex4 {
-    height: 130px;
+    height: 90px;
     width: 100%;
     background-color: gray;
     margin-top: 25px;
@@ -47,7 +57,7 @@
 }
 
 .flex5 {
-    height: 130px;
+    height: 90px;
     width: 100%;
     background-color: gray;
     margin-top: 25px;
@@ -58,7 +68,7 @@
 }
 
 .flex6 {
-    height: 130px;
+    height: 90px;
     width: 100%;
     background-color: gray;
     margin-top: 25px;
@@ -69,47 +79,100 @@
 }
 
 .box1 {
-    height: 100px;
-    width: 100px;
+    height: 60px;
+    width: 60px;
     background-color: yellow;
     margin: 15px;
+    border-radius: 5px;
 }
 
 .box2 {
-    height: 100px;
-    width: 100px;
+    height: 60px;
+    width: 60px;
     background-color: yellow;
     margin: 15px;
+    border-radius: 5px;
 }
 
 .box3 {
-    height: 100px;
-    width: 100px;
+    height: 60px;
+    width: 60px;
     background-color: yellow;
     margin: 15px;
+    border-radius: 5px;
 }
 
 .box4 {
-    height: 100px;
-    width: 100px;
+    height: 60px;
+    width: 60px;
     background-color: yellow;
     margin: 15px;
+    border-radius: 5px;
 }
 
 .box5{
-    height: 100px;
-    width: 100px;
+    height: 60px;
+    width: 60px;
     background-color: yellow;
     margin: 15px;
+    border-radius: 5px;
 }
 
 .box6 {
-    height: 100px;
-    width: 100px;
+    height: 60px;
+    width: 60px;
     background-color: yellow;
     margin: 15px;
+    border-radius: 5px;
 }
 
 .h1 {
     align-content: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #14468a;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.üld {
+    margin: 20px;
+}
+
+.oluline {
+    margin: 20px;
+}
+
+.partnerid {
+    margin: 20px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.pilt {
+    height: 80px;
+    width: 160px;
+    background-color: white;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pilt img {
+    max-width: 140px;
+}
+
+.header1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.text {
+    
 }
